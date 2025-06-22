@@ -187,7 +187,8 @@ dense_index.upsert_records("example-namespace", records)
 ```
 ![Screenshot from 2025-06-22 12-20-08](https://github.com/user-attachments/assets/2d8e4479-b639-472a-bfd2-3842773a0707)
 
-#### 7.Pinecone is eventually consistent, so there can be a slight delay before new or changed records are visible to queries. You can view index stats to check if the current vector count matches the number of vectors you upserted (50):
+#### 7.Status of an Index 
+Pinecone is eventually consistent, so there can be a slight delay before new or changed records are visible to queries. You can view index stats to check if the current vector count matches the number of vectors you upserted (50):
 ``` 
 
 # Wait for the upserted vectors to be indexed
@@ -198,7 +199,8 @@ time.sleep(10)
 stats = dense_index.describe_index_stats()
 print(stats)
 ```
-you will the ouput :
+you will see the ouput like this :
+
 ![Screenshot from 2025-06-22 12-17-53](https://github.com/user-attachments/assets/556c211e-45ac-441a-baca-8404e14e5f21)
 
 #### 8.Semantic search
@@ -225,6 +227,8 @@ results = dense_index.search(
 for hit in results['result']['hits']:
         print(f"id: {hit['_id']:<5} | score: {round(hit['_score'], 2):<5} | category: {hit['fields']['category']:<10} | text: {hit['fields']['chunk_text']:<50}")
 ```
+you will see the output like this:
+
 ![Screenshot from 2025-06-22 12-39-39](https://github.com/user-attachments/assets/ded75206-9406-40b0-902d-fafa6a07a976)
 
 The Final Ouput for "FOUR MONITORS" are:
