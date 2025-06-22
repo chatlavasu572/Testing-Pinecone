@@ -43,12 +43,12 @@ allowing all HTTP,HTTPs,SSH traffic
 
 ![Screenshot from 2025-06-22 10-50-19](https://github.com/user-attachments/assets/9b3c46b8-807f-4709-88c0-38371c2cef87)
 
-### now launch an instance click on connect for conecting to the terminal in your local-machine with he help of ssh-clinet.
+### Now launch an instance click on connect for conecting to the terminal in your local-machine with he help of ssh-clinet.
 
 
 ![Screenshot from 2025-06-22 11-02-18](https://github.com/user-attachments/assets/17312c8d-7f64-4777-8028-eca192708d5d)
 
-###  now connect to the instance using browser based client
+### Now connect to the instance using browser based client
 
 ![Screenshot from 2025-06-22 11-02-31](https://github.com/user-attachments/assets/c06f1145-046a-45ab-b839-6c7cb136f917)
 
@@ -58,10 +58,10 @@ ssh -i "pineconekeypair.pem" ubuntu@ec2-13-233-98-208.ap-south-1.compute.amazona
 ![Screenshot from 2025-06-22 11-30-45](https://github.com/user-attachments/assets/f6adff91-29ee-49f3-8006-7b9de70a99fc)
 
 
-## now open browser search for PINECONE web ui : https://app.pinecone.io/ 
+### Now open browser search for PINECONE web ui : https://app.pinecone.io/ 
 
-## 🔐 Why Do You Need a Pinecone API Key?
-### The Pinecone API key is required to:
+### 🔐 Why Do You Need a Pinecone API Key?
+#### The Pinecone API key is required to:
 
 - Authenticate your app or script
 
@@ -77,23 +77,23 @@ now Iam Creating a pinecone API KEY :
 
 ![Screenshot from 2025-06-22 11-16-55](https://github.com/user-attachments/assets/628eb936-24a4-42b5-a6c9-18beefcf017e)
 
-## ✅ Step-by-Step Guide to Install and Use Pinecone on Ubuntu
+### ✅ Step-by-Step Guide to Install and Use Pinecone on Ubuntu
 
-### 1. Install Python (if not installed)
+#### 1. Install Python (if not installed)
 ```
 sudo apt update
 sudo apt install python3 python3-pip -y
 ```
-### 2. Create and Activate a Virtual Environment
+#### 2. Create and Activate a Virtual Environment
 ```
 python3 -m venv pinecone-env
 source pinecone-env/bin/activate
 ```
-### 3.Install the SDK for your preferred language
+#### 3.Install the SDK for your preferred language
 ```
 pip install pinecone
 ```
-### 4.Create an Index in Pinecone,
+#### 4.Create an Index in Pinecone,
 There are two types of indexes for storing vector data:Dense indexes store dense vectors for semantic search, and sparse indexes store sparse vectors for lexical/keyword search.
 
 For this quickstart, create a dense index that is integrated with an embedding model hosted by Pinecone. With integrated models, you upsert and search with text and have Pinecone generate vectors automatically.
