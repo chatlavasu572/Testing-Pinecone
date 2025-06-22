@@ -118,7 +118,7 @@ if not pc.has_index(index_name):
         }
     )
 ```
-### 5.Upsert text
+#### 5.Upsert text
 Prepare a sample dataset of factual statements from different domains like history, physics, technology, and music. Model the data as as records with an ID, text, and category.
 ```
 
@@ -175,7 +175,7 @@ records = [
     { "_id": "rec50", "chunk_text": "Renewable energy sources include wind, solar, and hydroelectric power.", "category": "energy" }
 ]
 ```
-### 6.Upsert the sample dataset into a new namespace in your index.
+#### 6.Upsert the sample dataset into a new namespace in your index.
 
 Because your index is integrated with an embedding model, you provide the textual statements and Pinecone converts them to dense vectors automatically.
 ```
@@ -201,7 +201,7 @@ print(stats)
 you will the ouput :
 ![Screenshot from 2025-06-22 12-17-53](https://github.com/user-attachments/assets/556c211e-45ac-441a-baca-8404e14e5f21)
 
-### 8.Semantic search
+#### 8.Semantic search
 Search the dense index for ten records that are most semantically similar to the query, “Famous historical structures and monuments”.
 
 Again, because your index is integrated with an embedding model, you provide the query as text and Pinecone converts the text to a dense vector automatically.
@@ -229,7 +229,7 @@ for hit in results['result']['hits']:
 
 The Final Ouput for "FOUR MONITORS" are:
 
-### 1.Connectivity check monitor in pinecone:
+#### 1.Connectivity check monitor in pinecone:
 
 - Purpose: Verifies that the Pinecone endpoint is reachable and responsive.
 
@@ -280,7 +280,7 @@ except Exception as e:
 ```
 ![Screenshot from 2025-06-22 12-49-01](https://github.com/user-attachments/assets/15c04ff5-30b2-4174-9161-884c88fec077)
 
-### 2.Index count monitor
+#### 2.Index count monitor
 
 - Purpose: Monitors the total number of vectors stored in the index.
 
@@ -339,7 +339,7 @@ except Exception as e:
 ![Screenshot from 2025-06-22 12-55-00](https://github.com/user-attachments/assets/8c4ea73d-60c2-4981-8516-4e367cb35ca3)
 
 
-### 3.Indedx Stats Monitor
+#### 3.Indedx Stats Monitor
 
 - Purpose: Retrieves and tracks index metadata like dimensions, size, and namespace usage.
 
@@ -393,7 +393,7 @@ except Exception as e:
     sys.exit(1)
 ```
 ![Screenshot from 2025-06-22 12-54-10](https://github.com/user-attachments/assets/ee4e6609-4872-4a88-8638-e13dcd520dea)
-### 4.Query Latency Monitor
+#### 4.Query Latency Monitor
 
 - Purpose: Measures the time taken to execute vector similarity queries.
 
@@ -461,7 +461,7 @@ except Exception as e:
 the overall output of all the monitors is :
 ![Screenshot from 2025-06-22 12-45-02](https://github.com/user-attachments/assets/a7023b06-d3eb-418b-9d89-738213082f5e)
 
-## conclusion:
+### Conclusion:
 All monitoring scripts are running smoothly and providing continuous insight into Pinecone's health and performance. No disruptions or failures were detected in the current cycle. The system is stable and under proactive observation.
 
 
