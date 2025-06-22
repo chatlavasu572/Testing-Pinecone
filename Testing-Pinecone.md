@@ -1,8 +1,8 @@
 # Testing-Pinecone in Service Catalog 
-### 🧠 What is Pinecone?
+### What is Pinecone?
 Pinecone is a vector database — it’s designed to store and search through vector embeddings efficiently and at scale.
 
-### 🔍 What are Vectors?
+### What are Vectors?
 In AI/ML, when we process text, images, audio, etc., models (like OpenAI or Sentence Transformers) convert them into numerical representations called embeddings (vectors). These are just lists of numbers that represent semantic meaning.
 
 ### Why Use Pinecone?
@@ -10,15 +10,15 @@ Traditional databases (like MySQL or MongoDB) aren’t optimized for vector simi
 
 #### Pinecone allows you to:
 
-🔎 Search by meaning (semantic search)
+- Search by meaning (semantic search)
 
-⚡ Find similar items fast (e.g., similar texts, images, products)
+- Find similar items fast (e.g., similar texts, images, products)
 
-📦 Store millions of embeddings
+- Store millions of embeddings
 
-🌐 Scale automatically with cloud-native performance
+- Scale automatically with cloud-native performance
 
-🔐 Secure and production-ready
+- Secure and production-ready
 ### Firstly Creating a DUMMY-INSTANCE named DUMMMY_PINECONE in the AWS_CONSOLE.
 
 ![Screenshot from 2025-06-22 10-47-13](https://github.com/user-attachments/assets/3abfbc08-da04-4f28-9420-3e9f6465c01e)
@@ -60,7 +60,7 @@ ssh -i "pineconekeypair.pem" ubuntu@ec2-13-233-98-208.ap-south-1.compute.amazona
 
 ### Now open browser search for PINECONE web ui : https://app.pinecone.io/ 
 
-### 🔐 Why Do You Need a Pinecone API Key?
+###  Why Do You Need a Pinecone API Key?
 #### The Pinecone API key is required to:
 
 - Authenticate your app or script
@@ -77,7 +77,7 @@ now Iam Creating a pinecone API KEY :
 
 ![Screenshot from 2025-06-22 11-16-55](https://github.com/user-attachments/assets/628eb936-24a4-42b5-a6c9-18beefcf017e)
 
-### ✅ Step-by-Step Guide to Install and Use Pinecone on Ubuntu
+### Step-by-Step Guide to Install and Use Pinecone on Ubuntu
 
 #### 1. Install Python (if not installed)
 ```
@@ -237,7 +237,7 @@ The Final Ouput for "FOUR MONITORS" are:
 
 - Purpose: Verifies that the Pinecone endpoint is reachable and responsive.
 
-- Status: ✅ Active – Ensures that the service is online and accessible from the environment.
+- Status: Active – Ensures that the service is online and accessible from the environment.
 
 
 
@@ -288,7 +288,7 @@ except Exception as e:
 
 - Purpose: Monitors the total number of vectors stored in the index.
 
-- Status: ✅ Active – Helps detect unusual growth patterns or unexpected deletions
+- Status:  Active – Helps detect unusual growth patterns or unexpected deletions
 ```
 #!/usr/bin/env python3
 """
@@ -347,7 +347,7 @@ except Exception as e:
 
 - Purpose: Retrieves and tracks index metadata like dimensions, size, and namespace usage.
 
-- Status: ✅ Active – Confirms index configuration and growth are stable.
+- Status: Active – Confirms index configuration and growth are stable.
 
 ```
 #!/usr/bin/env python3
@@ -401,7 +401,7 @@ except Exception as e:
 
 - Purpose: Measures the time taken to execute vector similarity queries.
 
-- Status: ✅ Active – Ensures query performance remains within acceptable limits.
+- Status:  Active – Ensures query performance remains within acceptable limits.
 ```
 #!/usr/bin/env python3
 """
