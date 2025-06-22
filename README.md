@@ -5,7 +5,8 @@
 
 ## Next iam taking Ubutu OS AMI for launching an instance 
 
-![Screenshot from 2025-06-22 10-47-13](https://github.com/user-attachments/assets/1c82914e-87c0-4425-987d-0976c4732f3b)
+![Screenshot from 2025-06-22 10-47-34](https://github.com/user-attachments/assets/e89e208c-d62b-4077-9b19-8836aebd5480)
+
 
 ## Instance Type :t2.micro
 
