@@ -343,7 +343,7 @@ except Exception as e:
 ![Screenshot from 2025-06-22 12-55-00](https://github.com/user-attachments/assets/8c4ea73d-60c2-4981-8516-4e367cb35ca3)
 
 
-#### 3.Indedx Stats Monitor
+#### 3.Index Stats Monitor
 
 - Purpose: Retrieves and tracks index metadata like dimensions, size, and namespace usage.
 
