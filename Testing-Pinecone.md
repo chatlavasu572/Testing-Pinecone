@@ -92,6 +92,8 @@ sudo apt install python3 python3-pip -y
 ```
 #### 2. Create and Activate a Virtual Environment
 ```
+sudo apt install python3.12-venv
+
 python3 -m venv pinecone-env
 source pinecone-env/bin/activate
 ```
