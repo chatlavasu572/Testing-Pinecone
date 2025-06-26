@@ -21,6 +21,10 @@ Traditional databases (like MySQL or MongoDB) aren’t optimized for vector simi
 - Scale automatically with cloud-native performance
 
 - Secure and production-ready
+![image](https://github.com/user-attachments/assets/564ffae1-1912-49d4-82c8-61b2e5f6a63d)
+
+
+  
 ### Firstly Creating a DUMMY-INSTANCE named DUMMMY_PINECONE in the AWS_CONSOLE.
 
 ![Screenshot from 2025-06-22 10-47-13](https://github.com/user-attachments/assets/3abfbc08-da04-4f28-9420-3e9f6465c01e)
