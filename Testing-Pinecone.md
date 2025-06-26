@@ -7,7 +7,7 @@ In AI/ML, when we process text, images, audio, etc., models (like OpenAI or Sent
 
 ![1_sAJdxEsDjsPMioHyzlN3_A](https://github.com/user-attachments/assets/76e1ccfa-4c79-4940-b966-22033079a12e)
 
-### Why Use Pinecone?
+### Why do we Use Pinecone?
 Traditional databases (like MySQL or MongoDB) aren’t optimized for vector similarity search — they work with exact matches, not “closest meaning”.
 
 #### Pinecone allows you to:
@@ -54,7 +54,7 @@ allowing all HTTP,HTTPs,SSH traffic
 
 ![Screenshot from 2025-06-22 11-02-18](https://github.com/user-attachments/assets/17312c8d-7f64-4777-8028-eca192708d5d)
 
-### Now connect to the instance using browser based client
+### Now connect to the instance using browser based ssh-client
 
 ![Screenshot from 2025-06-22 11-02-31](https://github.com/user-attachments/assets/c06f1145-046a-45ab-b839-6c7cb136f917)
 
