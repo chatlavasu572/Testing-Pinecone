@@ -6,7 +6,6 @@ Pinecone is a vector database — it’s designed to store and search through ve
 In AI/ML, when we process text, images, audio, etc., models (like OpenAI or Sentence Transformers) convert them into numerical representations called embeddings (vectors). These are just lists of numbers that represent semantic meaning.
 
 ![1_sAJdxEsDjsPMioHyzlN3_A](https://github.com/user-attachments/assets/76e1ccfa-4c79-4940-b966-22033079a12e)
-![1_sAJdxEsDjsPMioHyzlN3_A](https://github.com/user-attachments/assets/76e1ccfa-4c79-4940-b966-22033079a12e)
 
 ### Why Use Pinecone?
 Traditional databases (like MySQL or MongoDB) aren’t optimized for vector similarity search — they work with exact matches, not “closest meaning”.
