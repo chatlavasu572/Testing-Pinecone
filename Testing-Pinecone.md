@@ -36,9 +36,6 @@ Traditional databases (like MySQL or MongoDB) aren’t optimized for vector simi
 
 ### Instance Type :t2.micro
 
-
-![Screenshot from 2025-06-22 10-47-13](https://github.com/user-attachments/assets/25b75a29-a6fb-41f0-987a-f80793fed556)
-
 ### KeyPair Login 
 create a key pair for connecting ssh-clinet to the local terminal 
 ![Screenshot from 2025-06-22 10-49-29](https://github.com/user-attachments/assets/e1faadd2-0fdf-4e35-a936-36dbade6c3dd)
